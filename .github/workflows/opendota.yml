@@ -1,0 +1,47 @@
+name: OpenDota Match Dump
+
+# Runs the fetch script on GitHub's runners (which have internet) and commits
+# the resulting data files back to this branch. Add a match id to matches.txt
+# and push to trigger a new dump. The result commit uses [skip ci] to avoid loops.
+
+on:
+  push:
+    branches: [claude/opendota-match-summary-hbgm87]
+    paths:
+      - opendota_match.py
+      - .github/workflows/opendota.yml
+      - matches.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Fetch and dump each match
+        run: |
+          mkdir -p matches
+          while IFS= read -r id || [ -n "$id" ]; do
+            id="$(echo "$id" | tr -d '[:space:]')"
+            [ -z "$id" ] && continue
+            echo "::group::Match $id"
+            python3 opendota_match.py "$id" --outdir matches
+            echo "::endgroup::"
+          done < matches.txt
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add matches
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add OpenDota match data dumps [skip ci]"
+            git push
+          fi
