@@ -1,0 +1,44 @@
+OpenDota Match 8857059540
+============================================================
+Duration : 47:35
+Score    : Radiant 39 - 58 Dire
+WINNER   : Dire
+
+--- RADIANT ---
+Hero              Player          K/D/A           NW   GPM   XPM  Lane   
+-------------------------------------------------------------------------
+Sniper            Anonymous       5/17/12     16,125   452   648  ?      
+    items: Monkey King Bar, Shadow Blade, Mask of Madness, Maelstrom, Power Treads, Wraith Band  | backpack: Mjollnir Recipe  | neutral: Gunpowder Gauntlet
+Ring Master       Anonymous       4/13/15     16,280   457   906  ?      
+    items: Magic Wand, Guardian Greaves, Crella's Crozier, Observer Ward, Aghanim's Scepter  | neutral: Conjurer's Catalyst
+Naga Siren        orestotel       19/5/8      41,581  1012  1463  ?      
+    items: Scythe of Vyse, Bloodthorn, Manta Style, Daedalus, Butterfly, Swift Blink  | backpack: Sentry Ward, Boots of Travel 2  | neutral: Possessed Mask
+Lifestealer       Anonymous       3/10/9      16,186   432   794  ?      
+    items: Bracer, Aghanim's Scepter, Phase Boots, Quelling Blade, Mjollnir, Skull Basher  | neutral: Enchanter's Bauble
+Warlock           Anonymous       7/13/10     16,856   455   555  ?      
+    items: Aghanim's Scepter, Arcane Boots, Tiara of Selemene, Iron Branch, Null Talisman, Octarine Core  | backpack: Observer and Sentry Wards  | neutral: Dandelion Amulet
+
+  RADIANT total net worth: 107,028
+
+--- DIRE ---
+Hero              Player          K/D/A           NW   GPM   XPM  Lane   
+-------------------------------------------------------------------------
+Sven              Anonymous       11/5/5      31,604   743  1402  ?      
+    items: Black King Bar, Satanic, Daedalus, Harpoon, Power Treads, Swift Blink  | backpack: Greater Healing Lotus  | neutral: Giant's Maul
+Broodmother       Anonymous       23/12/19    25,211   675  1109  ?      
+    items: Bloodthorn, Black King Bar, Crystalys, Diffusal Blade, Power Treads, Butterfly  | neutral: Spellslinger
+Zeus              Anonymous       3/6/30      20,210   491   844  ?      
+    items: Lotus Orb, Refresher Orb, Aghanim's Scepter, Null Talisman, Arcane Boots, Null Talisman  | neutral: Searing Signet
+Nature's Prophet  Anonymous       11/10/24    22,325   593   974  ?      
+    items: Power Treads, Maelstrom, Black King Bar, Bloodthorn, Shadow Blade, Orb of Blight  | backpack: Observer Ward  | neutral: Enchanter's Bauble
+Pangolier         Anonymous       10/6/12     23,836   552   893  ?      
+    items: Skull Basher, Aghanim's Scepter, Mage Slayer, Disperser, Boots of Travel, Blink Dagger  | neutral: Medallion of Courage
+
+  DIRE total net worth: 123,186
+
+=== Team net worth ===
+  Radiant : 107,028
+  Dire    : 123,186
+  Lead    : Dire +16,158
+
+(No radiant_gold_adv data — match may be unparsed. Request a parse on opendota.com and retry.)
